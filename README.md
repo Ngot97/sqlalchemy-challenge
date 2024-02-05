@@ -1,6 +1,7 @@
 # sqlalchemy-challenge
 
 Before You Begin
+
 Create a new repository for this project called sqlalchemy-challenge. Do not add this assignment to an existing repository.
 
 Clone the new repository to your computer.
@@ -12,16 +13,19 @@ Add your Jupyter notebook and app.py to this folder. They’ll contain the main 
 Push the changes to GitHub or GitLab.
 
 Files
+
 Download the following files to help you get started:
 
 Module 10 Challenge filesLinks to an external site.
 
 Instructions
-“”
+
+![image](https://github.com/Ngot97/sqlalchemy-challenge/assets/150645979/565b6f2a-611c-4d89-88ca-ea7aba21b84e)
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.
 
 Part 1: Analyse and Explore the Climate Data
+
 In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. To do so, complete the following steps:
 
 Note that you’ll use the provided files (climate_starter.ipynb and hawaii.sqlite) to complete your climate analysis and data exploration.
@@ -33,16 +37,19 @@ Use the SQLAlchemy automap_base() function to reflect your tables into classes, 
 Link Python to the database by creating a SQLAlchemy session.
 
 IMPORTANT
+
 Remember to close your session at the end of your notebook.
 
 Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
 
 Precipitation Analysis
+
 Find the most recent date in the dataset.
 
 Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
 
 HINT
+
 Don’t pass the date as a variable to your query.
 
 Select only the "date" and "prcp" values.
@@ -55,14 +62,18 @@ Plot the results by using the DataFrame plot method, as the following image show
 
 A screenshot depicts the plot.
 
+![image](https://github.com/Ngot97/sqlalchemy-challenge/assets/150645979/ab20fe4b-8234-47c6-93f2-4b0cd37715f1)
+
 Use Pandas to print the summary statistics for the precipitation data.
 
 Station Analysis
+
 Design a query to calculate the total number of stations in the dataset.
 
 Design a query to find the most-active stations (that is, the stations that have the most rows). To do so, complete the following steps:
 
 HINT
+
 You’ll need to use functions such as func.min, func.max, func.avg, and func.count in your queries.
 
 List the stations and observation counts in descending order.
@@ -81,9 +92,12 @@ Plot the results as a histogram with bins=12, as the following image shows:
 
 A screenshot depicts the histogram.
 
+![image](https://github.com/Ngot97/sqlalchemy-challenge/assets/150645979/66cbc35c-aee8-4f74-abd4-9f124a2d5bc0)
+
 Close your session.
 
 Part 2: Design Your Climate App
+
 Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
 
 /
